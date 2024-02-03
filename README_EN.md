@@ -30,3 +30,41 @@ $0, 2, 3, 4, 5, 8$, the weight of the selected things is 32, and the value is 22
 | 7 | 8 | 145 |
 | 8 | 2 | 126 |
 | 9 | 9 | 322 |
+
+## Task 4 - Traveling Salesman Problem  
+Write a program that will solve the traveling salesman problem using a genetic algorithm. The traveling salesman problem (TSP) is an optimization problem, which involves finding the minimum Hamiltonian cycle in a complete weighted graph. The name comes from a typical illustration of the problem, presenting it from the point of view of a traveling salesman: there are $n$ cities that the salesman has to visit, and the distance of travel between each pair of cities is given. The goal is to find the shortest route that connects all the cities, starting and ending at the same point.
+In this case, the gene will be the coordinates of the city $(x, y)$ or the index of the city (depending on what will be easier to store). The algorithm should work similarly to the one in task 3.  
+
+Adopt the following parameters:  
+• population size - 100,  
+• level of elitism - 20%,  
+• mutation probability - 1%.  
+
+Test the operation of the algorithm on the data set from table 2. The optimal (probably) solution for this example is the following route: $20, 14, 17, 13, 4, 18, 1, 19, 21, 23, 0, 16, 15, 2, 12, 11, 5, 7, 22, 9, 24, 10, 3, 8, 6$, with a length of 869.  
+| ID | x   | y   |
+| -- | --- | --- |
+| 0  | 119 | 38  |
+| 1  | 37  | 38  |
+| 2  | 197 | 55  |
+| 3  | 85  | 165 |
+| 4  | 12  | 50  |
+| 5  | 100 | 53  |
+| 6  | 81  | 142 |
+| 7  | 121 | 137 |
+| 8  | 85  | 145 |
+| 9  | 80  | 197 |
+| 10 | 91  | 176 |
+| 11 | 106 | 55  |
+| 12 | 123 | 57  |
+| 13 | 40  | 81  |
+| 14 | 78  | 125 |
+| 15 | 190 | 46  |
+| 16 | 187 | 40  |
+| 17 | 37  | 107 |
+| 18 | 17  | 11  |
+| 19 | 67  | 56  |
+| 20 | 78  | 133 |
+| 21 | 87  | 23  |
+| 22 | 184 | 197 |
+| 23 | 111 | 12  |
+| 24 | 66  | 178 |
