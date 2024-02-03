@@ -7,7 +7,7 @@ Write a program that uses a genetic algorithm to solve the equation $2a^2 + b = 
 ## Task 3 - Knapsack problem  
 Write a program that will solve the knapsack problem using a genetic algorithm. The knapsack problem is often presented as a problem of a thief robbing a store - he found 10 items; the j-th item is worth vj and weighs wj. The thief strives to take with him the most valuable loot, but he cannot take more than 35 kilograms. He also cannot take a fractional part of the items (this would be possible in the continuous knapsack problem). The value of the fitness function will be calculated according to the following formula:  
 
-!image
+![image](https://github.com/SelfishCrayfish/Basics-of-Genetic-Algorithms/assets/137427463/d5b37774-5f34-4c90-a5b5-041f8037a606)
 
 where:  
 • $n$ - length of the chromosome (corresponds to the number of all items in the store),  
